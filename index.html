@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio builder</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <h2>Portfolio Builder</h2>
 
+    <label>Name:</label>
+    <input type="text" id="name" placeholder="Enter your name" />
+    <br /><br />
+    <label>Headline:</label>
+    <input type="text" id="headline" placeholder="Headline" />
+    <br /><br />
+    <label>Profile Image:</label>
+    <input type="file" id="imageUpload" accept="image/*" />
+    <br /><br />
+    <label>About you:</label>
+    <textarea id="bio" placeholder="Enter a short bio"></textarea>
+    <br /><br />
+    <label>Skill 1:</label>
+    <input type="text" id="skill1" placeholder="E.g., HTML" />
+    <input type="text" id="aboutskill1" placeholder="Headline for skill 1" />
+    <br /><br />
+    <label>Skill 2:</label>
+    <input type="text" id="skill2" placeholder="E.g., CSS" />
+    <input type="text" id="aboutskill2" placeholder="Headline for skill 2" />
+    <br /><br />
+    <label>Work 1:</label>
+    <input type="file" id="imgwork1" accept="image/*" />
+    <input type="text" id="work1" placeholder="Work" />
+    <input type="text" id="aboutw1" placeholder="Headline for work 1" />
+    <br /><br />
+    <label>Work 2:</label>
+    <input type="file" id="imgwork2" accept="image/*" />
+    <input type="text" id="work2" placeholder="Work" />
+    <input type="text" id="aboutw2" placeholder="Headline for work 2" />
+    <br /><br />
+    <label>Footer Name:</label>
+    <input type="text" id="footern" placeholder="Name for footer " />
+    <br /><br />
+    <button onclick="saveData()">Generate Portfolio</button>
+    <script src="script.js"></script>
+  </body>
+</html>
