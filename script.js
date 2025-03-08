@@ -23,7 +23,7 @@ function saveData() {
   localStorage.setItem("aboutw2", aboutw2);
   let footern = document.getElementById("footern").value;
   localStorage.setItem("footern", footern);
-  
+    //show as image
   let imageInput = document.getElementById("imageUpload").files[0];
   if (imageInput) {
     let reader = new FileReader();
