@@ -29,7 +29,7 @@ function saveData() {
     let reader = new FileReader();
     reader.onload = function (e) {
       localStorage.setItem("profileImage", e.target.result);
-      window.location.href = "portfolio.html"; // Redirect after storing image
+      window.location.href = "portfolio.html"; //Redirect after storing image
     };
     reader.readAsDataURL(imageInput);
   } else {
