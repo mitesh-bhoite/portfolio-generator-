@@ -53,7 +53,7 @@ function saveData() {
     let reader = new FileReader();
     reader.onload = function (e) {
       localStorage.setItem("imgwork2", e.target.result);
-      window.location.href = "portfolio.html"; // Redirect after storing image
+      window.location.href = "portfolio.html"; //Redirect after storing image
     };
     reader.readAsDataURL(imgwork2);
   } else {
